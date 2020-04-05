@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">jokes</string>
     <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="office_button">Офисные</string>
+    <string name="zastolnie_button">Застольные</string>
+    <string name="study_button">Студенты</string>
+    <string name="new_rus_button">Новые Руссские</string>
+    <string name="family_button">Семейные</string>
 </resources>

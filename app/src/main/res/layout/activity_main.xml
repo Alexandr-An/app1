@@ -17,16 +17,28 @@
     <LinearLayout
         android:id="@+id/startLayoaut"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="100dp"
         android:padding="10dp"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         >
 
         <Button
             android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_blue_press_lightblue"
+            android:textSize="24sp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/office_button"
+            android:textColor="@color/blue95"/>
+        <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -34,7 +46,48 @@
             android:textSize="24sp"
             android:paddingRight="5dp"
             android:paddingLeft="5dp"
-            android:text="@string/start"
+            android:text="@string/zastolnie_button"
+            android:layout_marginBottom="20dp"
             android:textColor="@color/blue95"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_blue_press_lightblue"
+            android:textSize="24sp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:text="@string/study_button"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue95"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_blue_press_lightblue"
+            android:textSize="24sp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:text="@string/new_rus_button"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/blue95"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_blue_press_lightblue"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/family_button"
+            android:textColor="@color/blue95"
+            android:textSize="24sp" />
+
+
     </LinearLayout>
 </RelativeLayout>
